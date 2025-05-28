@@ -52,6 +52,18 @@ input[value="search"]{
 }
 input[value="search"]:hover{
 background-color: #393936;
-  transform: scale(1.05); /* subtle zoom effect */
+  transform: scale(1.05);
   box-shadow: 0 0 5px rgb(92, 183, 197);
+}
+
+.img_search{
+    text-align: right;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.txt{
+    color: azure;
+    text-decoration:none;
+    text-shadow: 0 0 5px rgb(139, 129, 129);
 }
